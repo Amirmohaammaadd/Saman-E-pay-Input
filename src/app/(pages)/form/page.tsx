@@ -71,8 +71,9 @@ const FormPage = () => {
                 />
 
                 <button
+                disabled={userData.personTwo.length > 5 || userData.personOne.length > 10}
                     type="submit"
-                    className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition mt-5"
+                    className="cursor-pointer px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition mt-5"
                 >
                     ارسال
                 </button>
