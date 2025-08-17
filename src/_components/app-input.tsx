@@ -62,7 +62,7 @@ const AppInput = ({
                 value={value}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                // maxLength={maxLength ? maxLength + 1 : undefined}  // if i wanted to make it to get maxlenght to prvent it to add more char
+                maxLength={maxLength ? maxLength + 1 : undefined}
                 {...rest}
                 className={`border px-3 w-full py-2 rounded-md text-sm outline-none transition-all 
                      ${error ? "border-red-500 focus:ring-red-300" : "border-gray-300 focus:ring-blue-300"}
