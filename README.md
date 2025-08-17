@@ -1,3 +1,15 @@
+
+---------------------------------------------------------------------------------
+
+hey there !
+i added maxLenght prop to avoid user to add more char
+if you whould prefer to let the user add more char you can just remove maxLengh props from the AppInput component.
+
+from Amirmohammad
+
+----------------------------------------------------------------------------------
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
